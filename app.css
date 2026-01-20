@@ -182,7 +182,7 @@ html {
 
 .main-Visual {
     position: relative;
-    background-image: url('../images/pexels-alexander-dummer-37646-132694.jpg');
+    background-image: url(../images/pexels-alexander-dummer-37646-132694.jpg);
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -270,7 +270,7 @@ body.company {
 
 .company-visual {
     position: relative;
-    background-image: url('../images/pexels-arunbabuthomas-8211309.jpg');
+    background-image: url(../images/pexels-arunbabuthomas-8211309.jpg);
     background-size: cover;
     background-position: center;
     height: 700px;
@@ -279,7 +279,6 @@ body.company {
     justify-content: flex-end;
     align-items: start;
     color: rgb(252, 251, 248);
-
 }
 
 .company-visual h1 {
@@ -370,6 +369,7 @@ body.company {
     }
 
 }
+
 
 
 
