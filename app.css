@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 0px;   
+    padding: 30px;   
 }
 
 .cakes header {
@@ -107,6 +107,7 @@ body {
 /* スクロールの高さ調節 */
 
 #cakes-ranking {
+     margin: 20px !important;
     scroll-margin-top: 120px;
 }
 
@@ -365,6 +366,7 @@ body.company {
     }
 
 }
+
 
 
 
