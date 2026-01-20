@@ -1,7 +1,10 @@
 body {
     margin: 0;
-    padding: 20px;
-    
+    padding: 0;   
+}
+
+main {
+    padding-top: 120px;
 }
 
 .cakes header {
@@ -367,6 +370,7 @@ body.company {
     }
 
 }
+
 
 
 
