@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 20px;   
+    padding: 0px;   
 }
 
 .cakes header {
@@ -178,7 +178,7 @@ html {
 
 .main-Visual {
     position: relative;
-    background-image: url("images/pexels-alexander-dummer-37646-132694.jpg");
+    background-image: url("../images/pexels-alexander-dummer-37646-132694.jpg");
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -266,7 +266,7 @@ body.company {
 
 .company-visual {
     position: relative;
-    background-image: url("images/pexels-arunbabuthomas-8211309.jpg");
+    background-image: url("../images/pexels-arunbabuthomas-8211309.jpg");
     background-size: cover;
     background-position: center;
     height: 700px;
@@ -365,6 +365,7 @@ body.company {
     }
 
 }
+
 
 
 
