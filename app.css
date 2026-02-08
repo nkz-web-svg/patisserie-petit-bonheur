@@ -380,6 +380,7 @@ body.company {
     .company-visual {
         height: 400px;
         padding: 20px;
+        display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -389,7 +390,7 @@ body.company {
         max-width: 320px;
         width: 100%;
          white-space: normal;
-        margin: 0;
+        margin: 0 auto;
         font-size: 15px;
         font-weight: 800;
         text-align: left;
@@ -437,6 +438,7 @@ body.company {
         margin-bottom: 0.5rem;
     }
 }
+
 
 
 
