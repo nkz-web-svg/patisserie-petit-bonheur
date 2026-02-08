@@ -297,7 +297,8 @@ body.company {
 }
 
 .company-visual h1 {
-    max-width: 320px;
+    max-width: none;
+    white-space: nowrap;
     width: 100%;
     position: relative;
     text-align: left;
@@ -386,7 +387,9 @@ body.company {
     }
 
     .company-visual h1 {
+        max-width: 320px;
         width: 100%;
+         white-space: normal;
         margin: 0;
         font-size: 15px;
         font-weight: 800;
@@ -435,6 +438,7 @@ body.company {
         margin-bottom: 0.5rem;
     }
 }
+
 
 
 
