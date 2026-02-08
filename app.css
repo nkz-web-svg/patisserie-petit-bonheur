@@ -297,11 +297,10 @@ body.company {
 }
 
 .company-visual h1 {
-    max-width: none;
-    white-space: nowrap;
+    max-width: 520px;
     width: 100%;
     position: relative;
-    text-align: left;
+    text-align: center;
     z-index: 2;
     margin: 0 auto;
     margin-top: 80px;
@@ -438,6 +437,7 @@ body.company {
         margin-bottom: 0.5rem;
     }
 }
+
 
 
 
