@@ -289,7 +289,7 @@ body.company {
     background-position: center;
     height: 700px;
     display: flex;
-    padding: 10px 60px 30px 40px;
+    padding: 20px 40px;
     justify-content: center;
     align-items: center;
     color: rgb(252, 251, 248);
@@ -435,6 +435,7 @@ body.company {
         margin-bottom: 0.5rem;
     }
 }
+
 
 
 
