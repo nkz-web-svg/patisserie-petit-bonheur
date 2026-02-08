@@ -388,7 +388,7 @@ body.company {
 
     .company-visual h1 {
         max-width: 320px;
-        width: 100%;
+        width: fit-content;
          white-space: normal;
         margin: 0 auto;
         font-size: 15px;
@@ -438,6 +438,7 @@ body.company {
         margin-bottom: 0.5rem;
     }
 }
+
 
 
 
