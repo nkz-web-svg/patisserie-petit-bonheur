@@ -388,7 +388,7 @@ body.company {
         margin: 0;
         font-size: 15px;
         font-weight: 800;
-        text-aline: left;
+        text-align: left;
     }
 
      .sp-br {
@@ -433,6 +433,7 @@ body.company {
         margin-bottom: 0.5rem;
     }
 }
+
 
 
 
