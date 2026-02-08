@@ -315,6 +315,13 @@ body.company {
     transform: translateY(0);
 }
 
+.company-text {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.8;
+}
+
 .company-visual::before {
     content: "";
     position: absolute;
@@ -373,7 +380,8 @@ body.company {
 
     .company-visual h1 {
         margin: 0;
-        font-size: 18px;
+        font-size: 15px;
+        font-weight: 800;
     }
 
     .company-abt {
@@ -414,4 +422,5 @@ body.company {
         margin-bottom: 0.5rem;
     }
 }
+
 
