@@ -1,7 +1,9 @@
 body {
     margin: 0;
-    padding: 30px;   
+    padding: 30px 0;
+
 }
+
 
 .cakes header {
     padding: 5px 0;
@@ -22,7 +24,8 @@ body {
 }
 
 .carousel-item img {
-    height: 80vh;
+    width: 100%;
+    height: 730px;
     object-fit: cover;
 }
 
@@ -32,7 +35,7 @@ body {
     font-family: "Merriweather", sans-serif !important;
     font-style: italic;
     color: rgb(236, 204, 19);
-   
+
 }
 
 /* heroメニュー */
@@ -84,10 +87,10 @@ body {
     color: #efe5dc;
 }
 
-/* .cakes-hero img {
+.cakes-hero img {
     height: 80vh;
     object-fit: cover;
-} */
+}
 
 /* ランキングシャドウに影をつける */
 
@@ -107,7 +110,7 @@ body {
 /* スクロールの高さ調節 */
 
 #cakes-ranking {
-     margin: 20px !important;
+    margin: 20px !important;
     scroll-margin-top: 120px;
 }
 
@@ -132,6 +135,20 @@ html {
 .section-title {
     text-align: center;
     margin: 10px !important;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.card-text1 {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+    text-align: center;
 }
 
 .card img {
@@ -179,7 +196,7 @@ html {
 
 .main-Visual {
     position: relative;
-    background-image: url("images/pexels-alexander-dummer-37646-132694.jpg");
+    background-image: url('./detail/pexels-alexander-dummer-37646-132694.jpg');
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -267,7 +284,7 @@ body.company {
 
 .company-visual {
     position: relative;
-    background-image: url("images/pexels-arunbabuthomas-8211309.jpg");
+    background-image: url('./company/pexels-arunbabuthomas-8211309.jpg');
     background-size: cover;
     background-position: center;
     height: 700px;
@@ -276,6 +293,7 @@ body.company {
     justify-content: flex-end;
     align-items: start;
     color: rgb(252, 251, 248);
+
 }
 
 .company-visual h1 {
@@ -326,26 +344,26 @@ body.company {
     margin-top: 200px;
 }
 
+
 /* 地図 */
+
 .map-wrap {
-            width: 100%;
-            height: 450px;
-         }
+    width: 100%;
+    height: 450px;
+}
 
-         .map-wrap iframe {
-            width: 100%;
-            height: 100%;
-            border: 0;
-         }
-
-
+.map-wrap iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
 
 /* *********************************
              スマホ
 ********************************* */
 
 @media(max-width: 768px) {
-    .company-visual{
+    .company-visual {
         height: 400px;
         padding: 20px;
         justify-content: center;
@@ -361,9 +379,11 @@ body.company {
     .company-abt {
         padding: 40px 20px;
     }
+
     .company-abt p {
-        font-size:  16px;
+        font-size: 16px;
     }
+
     .company-footer {
         display: block;
         margin-top: 80px;
@@ -374,22 +394,23 @@ body.company {
     .page-menu {
         display: none;
     }
+
     main {
         padding-top: 40px;
     }
+
     .map-wrap {
-                height: 250px;
-            }
+        height: 250px;
+    }
 
+    .card-text {
+        font-size: 0.8rem;
+        line-height: 1.6;
+        margin-bottom: 0.5rem;
+    }
+    .card-text1 {
+        font-size: 0.9rem;
+         line-height: 1.6;
+        margin-bottom: 0.5rem;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
