@@ -48,7 +48,7 @@ body {
 
 .carousel-caption {
     bottom: 20%;
-    left: 75%;
+    left: 70%;
     transform: translateX(-50%);
     text-align: center;
     z-index: relative;
@@ -377,6 +377,21 @@ body.company {
 ********************************* */
 
 @media(max-width: 768px) {
+
+    .carousel-caption {
+        left: 50%;
+        width:100%;
+        padding: 0 20px;
+        bottom: 15%;
+    }
+    .hero-title {
+        font-size: 1.5rem;
+    }
+
+    .hero-text {
+        font-size: 1rem;
+    }
+        
     .company-visual {
         height: 400px;
         padding: 20px;
@@ -438,6 +453,7 @@ body.company {
         margin-bottom: 0.5rem;
     }
 }
+
 
 
 
